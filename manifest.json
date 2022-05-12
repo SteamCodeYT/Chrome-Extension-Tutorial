@@ -6,7 +6,7 @@
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["storage", "activeTab"],
+    "permissions": ["storage", "activeTab", "contextMenus"],
     "action": {
         "default_popup": "popup.html"
     }, 
